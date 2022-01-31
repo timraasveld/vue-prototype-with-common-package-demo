@@ -14,7 +14,7 @@ import SomeComponent from "common-components/SomeComponent.vue"
 })
 export default class App extends Vue {
   mounted() {
-    console.log("Vue.prototype.$someGlobal in SomeComponent", Vue.prototype.$someGlobal)
+    console.log("this.$someGlobal in App:", this.$someGlobal)
   }
 }
 </script>
